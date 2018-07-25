@@ -28,8 +28,5 @@ def last_student_by_method
 end
 
 def first_second_and_third_students
- STUDENT_NAMES["Adele",
-  "Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna"]
-  STUDENT_NAMES.each do |STUDENT_NAMES|
-    puts "#{STUDENT_NAMES}"
+  STUDENT_NAMES[0..2]
 end
